@@ -1,6 +1,6 @@
 /* Styles for left background section */
 .left-bg {
-    background: url('/assets/left2-bg-image.png') no-repeat center center;
+    background: url("/assets/left2-bg-image.png") no-repeat center center;
     background-size: cover;
     color: white;
     padding: 50px;
