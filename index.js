@@ -1,22 +1,22 @@
 $(document).ready(function () {
-  const allowedOrigins = [
-    "http://localhost:5500",
-    "http://localhost:8080",
-    "https://auth.800ambi.com",
-  ];
+  // const allowedOrigins = [
+  //   "http://localhost:5500",
+  //   "http://localhost:8080",
+  //   "https://auth.800ambi.com",
+  // ];
 
-  let validParent = false;
-  if (window.top !== window.self) {
-    const parentUrl = new URL(document.referrer);
-    if (allowedOrigins.includes(parentUrl.origin)) {
-      validParent = true;
-    }
-  }
+  // let validParent = false;
+  // if (window.top !== window.self) {
+  //   const parentUrl = new URL(document.referrer);
+  //   if (allowedOrigins.includes(parentUrl.origin)) {
+  //     validParent = true;
+  //   }
+  // }
 
-  if (!validParent) {
-    $(".glass-card").html("<h1>Access Denied</h1>");
-    return;
-  }
+  // if (!validParent) {
+  //   $(".glass-card").html("<h1>Access Denied</h1>");
+  //   return;
+  // }
 
   const testimonials = [
     {
